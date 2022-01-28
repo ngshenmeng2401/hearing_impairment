@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.hearing_impairment">
    <application
-        android:label="hearing_impairment"
+        android:label="Bibi Hearing"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

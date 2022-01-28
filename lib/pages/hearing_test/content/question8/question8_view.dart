@@ -28,7 +28,7 @@ class EighthQuestionView extends GetView<Question8Controller> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children:  [
               const Padding(
-                padding: EdgeInsets.fromLTRB(0, 40, 0, 20),
+                padding: EdgeInsets.fromLTRB(0, 10, 0, 20),
                 child: Text("Question 8",
                   style: TextStyle(
                     fontSize: 30,

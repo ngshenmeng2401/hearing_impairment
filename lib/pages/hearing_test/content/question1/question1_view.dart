@@ -28,7 +28,7 @@ class FirstQuestionView extends GetView<Question1Controller> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children:  [
               const Padding(
-                padding: EdgeInsets.fromLTRB(0, 40, 0, 20),
+                padding: EdgeInsets.fromLTRB(0, 10, 0, 20),
                 child: Text("Question 1",
                   style: TextStyle(
                     fontSize: 30,
@@ -154,7 +154,6 @@ class FirstQuestionView extends GetView<Question1Controller> {
                 children: [
                   Container(
                     decoration: BoxDecoration(
-                      // border: Border.all(color: Colors.black),
                       color: Colors.blue[400],
                       borderRadius: const BorderRadius.all(Radius.circular(30)),
                     ),

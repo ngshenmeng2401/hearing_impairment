@@ -78,13 +78,13 @@ class ResultController extends GetxController{
 
     if(totalResult >= 0 && totalResult <= 4){
 
-      suggestion = "U better look forward doctor";
+      suggestion = "Oops, it seems that you have low hearing level, you might need to see the doctor.";
     }else if(totalResult >= 5 && totalResult <= 7){
 
-      suggestion = "U may have a meet for doctor";
+      suggestion = "You have moderate hearing level, please take care of yourself.";
     }else{
 
-      suggestion = "Good job";
+      suggestion = "Well done, you are excellent in hearing, keep it up!";
     }
   }
 

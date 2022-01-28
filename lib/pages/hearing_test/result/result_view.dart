@@ -30,7 +30,7 @@ class ResultView extends GetView<ResultController> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const Padding(
-                padding: EdgeInsets.fromLTRB(0, 40, 0, 20),
+                padding: EdgeInsets.fromLTRB(0, 15, 0, 20),
                 child: Text("Result",
                   style: TextStyle(
                     fontSize: 38,
@@ -110,6 +110,7 @@ class ResultView extends GetView<ResultController> {
               const SizedBox(height: 15,),
               Center(
                 child: Text(controller.suggestion,
+                  textAlign: TextAlign.center,
                   style: const TextStyle(
                     color: Colors.black,
                     fontSize: 16),),

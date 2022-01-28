@@ -22,7 +22,7 @@ class SignUpView extends GetView<SignUpController> {
       body:SingleChildScrollView(
         child: Center(
           child:Padding(
-            padding: const EdgeInsets.fromLTRB(25,40,25,0),
+            padding: const EdgeInsets.fromLTRB(25,15,25,0),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -31,7 +31,7 @@ class SignUpView extends GetView<SignUpController> {
                   height: screenHeight / 4,
                   width: screenWidth / 1.1,),
                 Container(
-                  margin: const EdgeInsets.fromLTRB(0, 20, 0, 10),
+                  margin: const EdgeInsets.fromLTRB(0, 10, 0, 10),
                   decoration: BoxDecoration(
                     border: Border.all(color: Colors.black),
                     borderRadius: const BorderRadius.all(Radius.circular(5)),
@@ -103,7 +103,7 @@ class SignUpView extends GetView<SignUpController> {
                     ],
                   ),
                 ),
-                const SizedBox(height:15),
+                const SizedBox(height:10),
                 MaterialButton(
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10),
@@ -139,7 +139,7 @@ class SignUpView extends GetView<SignUpController> {
                         fontSize: 20,
                     )),
                 ),
-                const SizedBox(height:20),
+                const SizedBox(height:15),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [

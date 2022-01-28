@@ -24,7 +24,7 @@ class SignInView extends GetView<LoginController> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Padding(
-                padding: const EdgeInsets.fromLTRB(0, 80, 0, 10),
+                padding: const EdgeInsets.fromLTRB(0, 50, 0, 10),
                 child: Image.asset(
                   'assets/images/logo.png',
                   height: screenHeight / 3,
