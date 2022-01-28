@@ -1,8 +1,18 @@
 # hearing_impairment
 
-A new Flutter project.
+This project is about a hearing test level. User need to listen an audio and answer the question. There are 10 audios and 10 questions need to be listen and answer.
 
 ## Getting Started
+
+![output](https://github.com/ngshenmeng2401/hearing_impairment/blob/master/assets/images/homepage.png)
+
+![output](https://github.com/ngshenmeng2401/hearing_impairment/blob/master/assets/images/intro.png)
+
+![output](https://github.com/ngshenmeng2401/hearing_impairment/blob/master/assets/images/login.png)
+
+![output](https://github.com/ngshenmeng2401/hearing_impairment/blob/master/assets/images/signup.png)
+
+![output](https://github.com/ngshenmeng2401/hearing_impairment/blob/master/assets/images/testpage.png)
 
 This project is a starting point for a Flutter application.
 
